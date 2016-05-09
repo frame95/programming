@@ -1,0 +1,3 @@
+function countprimes(n)
+	
+endfunction
