@@ -1,3 +1,6 @@
+#ifndef __QUEUE_LIB__
+#define __QUEUE_LIB__ 1
+
 #include <stdio.h>
 #include "dllist.h"
 #define TRUE 1
@@ -26,3 +29,5 @@ void queue_print(queue Q, FILE* out, int hr) {
 int queue_is_empty(queue Q) {
 	return (Q.size==0)?TRUE:FALSE;
 	}
+
+#endif

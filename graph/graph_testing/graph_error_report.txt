@@ -1,0 +1,6 @@
+UNWEIGHTED UNDIRECTED
+
+1. (IMPRECISIONE) La stampa (o il rand_fill) del non-diretto non stampa il numero 'intuitivo' di archi (la metà degli effettivi), e stampa solo gli archi a -> b con a<b, mentre classicamente si stampano tutti.
+
+2. (ERRORE TEST) Probabilmente i vari getchar() fanno impazzire il buffer e registra lettere a caso nei parametri di READING FROM stdin. Prova a cambiare getchar() con qualcosa tipo system("pause").
+
